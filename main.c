@@ -21,7 +21,7 @@ int main()
     if(initConsoleColors())
     {
         wprintf(L"\x1b[102m\x1b[94mHello Made it\x1b[0m\n");
-        wprintf(L"\x1b[105m\u2591\u2592\x1b[40m\u2593\u2593\x1b[0m\u2592\u2591\n\x1b[102m\u03A6\u03A6\u03A6\u03A6\x1b[0m");
+        wprintf(L"\x1b[105m\u2591\u2592\x1b[40m\u2593\u2593\x1b[0m\u2592\u2591\n\x1b[102m\u03A6\u03A6\u03A6\u03A6\x1b[0m\n\n");
     }
 
     return errno;
