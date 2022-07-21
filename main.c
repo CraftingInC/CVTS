@@ -48,7 +48,7 @@ int initConsoleColors()
         return -1;
     }
 #else
-    setlocal(LC_ALL, "en_US.utf8");   // This sets up unicode for linux in XTERM
+    setlocale(LC_ALL, "en_US.utf8");   // This sets up unicode for linux in XTERM
 #endif
     return 1;
 }
